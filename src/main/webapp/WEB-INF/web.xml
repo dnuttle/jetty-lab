@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+	<servlet>
+	   <servlet-name>Test</servlet-name>
+	   <servlet-class>net.nuttle.servlet.TestServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	   <servlet-name>Test</servlet-name>
+	   <url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	
+	<listener>
+		<listener-class>net.nuttle.context.TestContextListener</listener-class>
+	</listener>
+</web-app>
