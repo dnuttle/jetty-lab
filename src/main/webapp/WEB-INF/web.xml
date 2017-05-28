@@ -4,10 +4,26 @@
 	   <servlet-name>Test</servlet-name>
 	   <servlet-class>net.nuttle.servlet.TestServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>Send</servlet-name>
+		<servlet-class>net.nuttle.servlet.SendServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Receive</servlet-name>
+		<servlet-class>net.nuttle.servlet.ReceiveServlet</servlet-class>
+	</servlet>
 	
 	<servlet-mapping>
 	   <servlet-name>Test</servlet-name>
 	   <url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	   <servlet-name>Send</servlet-name>
+	   <url-pattern>/send</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	   <servlet-name>Receive</servlet-name>
+	   <url-pattern>/receive</url-pattern>
 	</servlet-mapping>
 	
 	<listener>
