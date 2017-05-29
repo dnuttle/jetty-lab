@@ -15,6 +15,10 @@
 	<servlet>
 		<servlet-name>Controller</servlet-name>
 		<servlet-class>net.nuttle.servlet.ControllerServlet</servlet-class>
+		<init-param>
+			<param-name>exampleControllerParam</param-name>
+			<param-value>Example controller parameter value</param-value>
+		</init-param>
 	</servlet>
 	<servlet>
 		<servlet-name>Login-Success</servlet-name>

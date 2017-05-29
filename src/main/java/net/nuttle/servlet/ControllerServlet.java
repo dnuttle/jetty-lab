@@ -22,6 +22,8 @@ public class ControllerServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse res) {
     LOG.debug("Received request in ControllerServlet at " + req.getServletPath());
+    String initParam = getInitParameter("exampleControllerParam");
+    LOG.debug("Found exampleControllerParam: " + initParam);
     String path = req.getServletPath();
     try {
       switch (path) {
