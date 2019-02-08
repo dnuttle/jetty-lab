@@ -1,12 +1,8 @@
 package net.nuttle.context;
 
-import java.net.URI;
-import java.net.URISyntaxException;
-
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-import org.apache.http.client.utils.URIBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
